@@ -1,5 +1,5 @@
 # recommender-system
-Simple recommender system using Kafka (with simulated events) and Spark
+Simple recommender system using Kafka, Spark, and ElasticSearch in Docker
 
 To start the environment, run $ docker compose up -d --build
 
