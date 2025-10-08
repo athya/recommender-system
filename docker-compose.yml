@@ -44,7 +44,6 @@ services:
     volumes:
       - ./spark-apps:/opt/spark-apps
 
-  # Turn into producer, consumer, etc. later
   python:
     build:
       context: ./python
@@ -54,6 +53,7 @@ services:
       - elasticsearch
     volumes:
       - ./scripts:/app
+      - ./data:/data
     working_dir: /app
     command: tail -f /dev/null
 

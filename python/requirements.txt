@@ -1,3 +1,6 @@
 kafka-python==2.2.15
+numpy==2.0.2
 py4j==0.10.9.9
 pyspark==4.0.1
+elasticsearch==9.1.1
+pandas==2.3.3

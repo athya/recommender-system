@@ -1,2 +1,2 @@
-./scripts/movie.csv
-.DS_Store
+/DS_Store
+/data/*
